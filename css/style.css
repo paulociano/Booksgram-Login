@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.booksgram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.cellphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.cellphone img{
+    height: 50rem;
+}
+
+.booksgram-right {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1.3rem 0;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.profile-photo img{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 6rem;
+}
+
+.download {
+    flex-direction: row;
+}
+
+.download img{
+    width: 30%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.logout {
+    color: #0095f6;
+    margin-top: 1rem;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.not-account{
+    color: rgb(160,160,160);
+}
+
+.link-blue{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.baixe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.downloadapp {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+@media (max-width:1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width:950px) {
+
+    body {
+        background-color: #fff;
+    }
+
+    .group {
+        border: none;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .cellphone {
+        display: none;
+    }
+
+    .booksgram-right {
+        width: 100%;
+    }
+}
